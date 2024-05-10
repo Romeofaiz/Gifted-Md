@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
 global.audio = "";
-global.video = "https://telegra.ph/file/204481823350f368c1826.mp4";
+global.video = "https://telegra.ph/file/df04216e8c7720508631a.mp4";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "giftedmd@giftedtechnexus.co.ke";
@@ -14,12 +14,12 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github = process.env.GITHUB || "https://github.com/mouricedevs/Gifted-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg";
-global.devs = "254762016957,254110853827,254728746852,255655147353,254728782591";
-global.sudo = process.env.SUDO || "254762016957,254110853827,254728746852,255655147353,254728782591";
-global.owner = process.env.OWNER_NUMBER || "254762016957,254110853827,254728746852,255655147353,254728782591";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaNdKNxK5cDKRztKXV3g";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNdKNxK5cDKRztKXV3g";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a13bfae1d24b6b96dc5b4.jpg";
+global.devs = "918433897160";
+global.sudo = process.env.SUDO || "918433897160";
+global.owner = process.env.OWNER_NUMBER || "918433897160";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -27,15 +27,15 @@ global.warncount = process.env.WARN_COUNT || 5;
 global.disablepm = process.env.DISABLE_PM || "true";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/a13bfae1d24b6b96dc5b4.jpg";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254762016957,254110853827,254728746852,255655147353,254728782591";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "918433897160";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "254762016957,254110853827,254728746852,255655147353,254728782591";
+global.read_status_from = process.env.READ_STATUS_FROM || "918433897160";
 
 global.api_smd = "https://api-smd.onrender.com";
 global.scan = "https://web.giftedtechnexus.co.ke";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "3.0.0",
-  caption: process.env.CAPTION || "*ɢɪғᴛᴇᴅ-ᴍᴅ ᴠᴇʀsɪᴏɴ 3.0.0*",
-  author: process.env.PACK_AUTHER || "Gifted Tech",
-  packname: process.env.PACK_NAME || "Gifted-Md♥️",
-  botname: process.env.BOT_NAME || "ɢɪғᴛᴇᴅ-ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
+  caption: process.env.CAPTION || "*ROMEK-XD*",
+  author: process.env.PACK_AUTHER || "ROMEK-XD",
+  packname: process.env.PACK_NAME || "ROMEK-XD♥️",
+  botname: process.env.BOT_NAME || "ROMEK-XD",
+  ownername: process.env.OWNER_NAME || "ROMEK-XD",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
